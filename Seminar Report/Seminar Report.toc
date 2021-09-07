@@ -1,0 +1,19 @@
+\babel@toc {english}{}
+\contentsline {chapter}{Certificate}{i}{chapter*.1}%
+\contentsline {chapter}{Acknowledgement}{ii}{chapter*.2}%
+\contentsline {chapter}{Preface}{iii}{chapter*.3}%
+\contentsline {chapter}{Abstract}{iv}{chapter*.4}%
+\contentsline {chapter}{Introduction}{vi}{chapter*.6}%
+\contentsline {chapter}{History}{vii}{chapter*.6}%
+\contentsline {chapter}{Architecture}{viii}{chapter*.6}%
+\contentsline {chapter}{Crypto Mining}{ix}{chapter*.6}%
+\contentsline {chapter}{Field-Programmable Gate Array}{x}{chapter*.6}%
+\contentsline {chapter}{Application-Specific Integrated Circuit}{xii}{figure.caption.7}%
+\contentsline {chapter}{GPU Mining}{xiii}{figure.caption.8}%
+\contentsline {chapter}{GPU Mining Algorithms}{xiv}{figure.caption.9}%
+\contentsline {chapter}{ Best Crypto to Mine With GPU}{xv}{figure.caption.9}%
+\contentsline {chapter}{Top Picks for the Best Mining GPUs}{xvi}{figure.caption.9}%
+\contentsline {chapter}{What Is Bitcoin Mining?}{xviii}{figure.caption.12}%
+\contentsline {chapter}{Mining Profitability }{xix}{figure.caption.13}%
+\contentsline {chapter}{How to Mine with NiceHash }{xx}{figure.caption.14}%
+\contentsline {chapter}{Bibliography}{xxiv}{chapter*.18}%

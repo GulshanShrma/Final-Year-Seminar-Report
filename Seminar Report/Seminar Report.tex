@@ -1,0 +1,75 @@
+\documentclass{report}
+\usepackage[nottoc]{tocbibind}
+\usepackage[explicit]{titlesec}
+\usepackage{enumerate}
+\usepackage{caption}
+\usepackage{graphics}
+\usepackage{hyperref}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{subcaption}
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=20mm,
+	top=20mm,
+}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\pagenumbering{roman}
+\usepackage{fancyhdr}
+\usepackage{background}
+\usetikzlibrary{calc}
+
+\SetBgScale{1}
+\SetBgAngle{0}
+\SetBgColor{black}
+\SetBgContents{
+	\begin{tikzpicture}[overlay,remember picture]
+	\draw [line width=1pt,rounded corners=0pt,]
+	($ (current page.north west) + (1cm,-1.2cm) $)
+	rectangle
+	($ (current page.south east) + (-1cm,1.5cm) $);
+	\draw [line width=1pt,rounded corners=0pt,]
+	($ (current page.north west) + (1.05cm,-1.25cm) $)
+	rectangle
+	($ (current page.south east) + (-1.05cm,1.55cm) $);
+\end{tikzpicture}}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\rhead{CSE}
+\lhead{Cryptocurrency And Crypto Mining (Bitcoin)}
+\rfoot{Page \thepage}
+\lfoot{1716110074}
+\graphicspath{ {./images/} }
+
+
+\begin{document}
+
+\input{titlepage}
+\input{certificate}
+\input{acknowledgement}
+\input{preface}
+\input{abstract}
+\tableofcontents
+\input{introduction}
+\input{history}
+\input{architecture}
+\input{crypto mining}
+\input{fgpa}
+\input{asic}
+\input{gpu}
+\input{bitcoin}
+\input{profitability}
+\input{nicehash}
+\input{references}
+
+%Step 2: Extract the contents of the ZIP file\\Extract the contents of the ZIP file called $"wordpress.zip"$, which was downloaded in step 1, to the htdocs folder within the XAMPP directory. If ZIP file extracted properly there should be a new directory called $"wordpress"$ within the $\backslash$ xampp $\backslash$  htdocs directory. Before the process can move forward, please ensure that the web server environment is running properly.\vspace{.3cm}
+
+\end{document}
